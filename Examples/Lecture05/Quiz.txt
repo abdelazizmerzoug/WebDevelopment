@@ -1,0 +1,6 @@
+1) Question 1: Without applying any additional styles, the following code snippet will show up in the browser 
+   as how many lines of text? (Assume the browser is stretched wide enough not to cause any single line to wrap)
+   ---> 4 lines
+2) Question 2: Identify invalid HTML code snippet (assume code above and below this code is valid)
+   ---> <span>I love <div>gardening</div></span>
+		** block elements can't be inside inline elements

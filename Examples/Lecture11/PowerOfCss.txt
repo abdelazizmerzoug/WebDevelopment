@@ -1,0 +1,5 @@
+1- Structure alone is not Enough imagine having home without nicely painted drywall covering installation and support beams. that's why we have Css
+
+2- CSS is an incredibly powerful technology. It can take the same HTML structure and present it in such drastically different ways that you would never even guess that the underlying structure of the content are exactly the same ones.
+
+3-check: https://csszengarden.com/

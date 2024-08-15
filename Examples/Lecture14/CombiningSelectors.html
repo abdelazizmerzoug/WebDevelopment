@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Combining Selectors</title>
+    <style>
+        /* all classes with name Highlight */
+        .highlight{
+        background-color: blue;
+            }
+        /* Every Element with class = "name_class" */
+        p.big {
+        font-style: italic;
+        }
+        /* Every element with class highlight as well class main point */
+        .highlight.mainpoint{
+            color: red;
+            background-color: black;
+        }
+        /* child selector (direct child) */
+        section > article {
+        color: green;
+        }
+        /* Desendant selector any element inside first element  */
+        article p {
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <body>
+        <div class="highlight">This is a highlighted div.</div>
+        <p class="big">This paragraph is big and italicized.</p>
+        <p class="highlight mainpoint">This is a highlighted main point paragraph.</p>
+    
+        <section>
+            <article>This article is a direct child of the section and will be green.</article>
+            <article>
+                <p>This paragraph is inside an article and will be red.</p>
+                <p class="big">This paragraph is big and italicized inside an article and will be red.</p>
+            </article>
+        </section>
+
+        <pre>
+            <P><b>This is the Css Style</b></P>
+                /* all classes with name Highlight */
+                .highlight {
+                    background-color: blue;
+                }
+            
+                /* Every Element with class = "name_class" */
+                p.big {
+                    font-style: italic;
+                }
+            
+                /* Every element with class highlight as well class main point */
+                .highlight.mainpoint {
+                    color: red;
+                    background-color: black;
+                }
+            
+                /* child selector (direct child) */
+                section>article {
+                    color: green;
+                }
+            
+                /* Desendant selector any element inside first element  */
+                article p {
+                    color: red;
+                }
+        </pre>
+        <pre>
+            <p><b>This html code</b></p>
+            &lt;div class=&quot;highlight&quot;&gt;This is a highlighted div.&lt;/div&gt;
+            &lt;p class=&quot;big&quot;&gt;This paragraph is big and italicized.&lt;/p&gt;
+            &lt;p class=&quot;highlight mainpoint&quot;&gt;This is a highlighted main point paragraph.&lt;/p&gt;
+            
+            &lt;section&gt;
+            &lt;article&gt;This article is a direct child of the section and will be green.&lt;/article&gt;
+            &lt;article&gt;
+            &lt;p&gt;This paragraph is inside an article and will be red.&lt;/p&gt;
+            &lt;p class=&quot;big&quot;&gt;This paragraph is big and italicized inside an article and will be red.&lt;/p&gt;
+            &lt;/article&gt;
+            &lt;/section&gt;
+
+        </pre>
+</body>
+</html>

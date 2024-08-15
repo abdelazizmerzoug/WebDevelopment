@@ -1,0 +1,6 @@
+# Block level elements render to begin on the new line by default
+# Block-level elements are allowed to contain inline or other block-level elements within them.
+
+# Inline elements, which render on the same line by default.
+# Inline element can only contain other in line elements it's cannot have as part of its content a block
+  level element

@@ -1,0 +1,5 @@
+1) Question 1: W3C (World Wide Web Consortium) is the only organization that dictates
+		   what and how browsers should implement HTML5 ---> False WHATWG Also has part
+
+2) Question 2: WHATWG does NOT version HTML. For them, it's NOT HTML5. It's just HTML.
+		   --->True

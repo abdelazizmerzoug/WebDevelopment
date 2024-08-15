@@ -1,0 +1,8 @@
+1)Question 1: Twitter Bootstrap is one of the most popular CSS frameworks today --->True
+
+2)Question 2: This Bootstrap Grid class: col-md-6 means that the element to which it is applied should stretch to be 50% of the browser screen and collapse/stack below a certain browser screen width --->True
+
+3)Question 3: The Bootstrap Grid requires us to only use 'div' elements for each grid cell.---> Flase
+
+4)Question 4: Bootstrap Grid has to be defined inside of some parent element which has its class set to either 'container' or 'container-fluid'. --->True
+

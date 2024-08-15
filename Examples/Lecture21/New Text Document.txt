@@ -1,0 +1,10 @@
+when you float elements, the browser takes them out of the regular document flow. 
+
+margin collapses as we've learned before when it is touching the margin of another element. However, when it comes to floated elements, the margins never collapse. 
+
+Q1) The following code:
+			section {
+ 				 clear: right;
+				}
+says that none of the section elements should allow anything to float to the right of them.
+

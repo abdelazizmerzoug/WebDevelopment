@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#bg{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(50, 229, 229);
+    border: 2px solid black;
+    background-image: url("./yaakov.png");
+    background-repeat: no-repeat, repeat-x, repeat-y;
+    background-position: left;
+    background: url(./yaakov.png) no-repeat right center;
+    background-color: greenyellow;
+}
+p{
+    margin: 20px;
+    background: rgb(188, 149, 149);
+}

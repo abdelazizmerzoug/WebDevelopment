@@ -1,0 +1,13 @@
+1)Question 1: A stylesheet is a collection of CSS rules ---> True
+
+2)Question 2: Identify valid CSS rules (can be one or more)
+	      --->p {
+ 			 height: 23px;
+  			 font-size: 12px;
+			}
+
+	      --->p { height: 23px; font-size: 12px; }
+
+
+3)Question 3: CSS is only allowed to have 1 property/value pair per each CSS rule --->False
+		it's can be more than one per each css rule 

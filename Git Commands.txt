@@ -1,0 +1,9 @@
+1) This is to go live server : in another meaning see changes while working on files
+	browser-sync start --server --directory --files "*"
+
+2) This allow u to update Your repository into github
+	git status
+	git add . 
+	git commit -m "Comment"
+	git status
+	git push

@@ -1,0 +1,2 @@
+1)Question 1: Even though the width and height attributes of the 'img' tag are not required, it's always a good 
+		  idea to use them ---> True

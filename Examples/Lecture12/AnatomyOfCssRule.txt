@@ -1,0 +1,9 @@
+selector_name {
+    property: value;
+}
+
+
+CSS rule can consist of several declarations and one declaration can be applied To many tags at same time with the same name for ex: p{color: gray} this will be applied to all p tags
+
+
+Every browser comes with default Css File that gives some simple styling to your html

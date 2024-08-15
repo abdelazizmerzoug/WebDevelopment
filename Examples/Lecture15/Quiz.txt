@@ -1,0 +1,22 @@
+1) Pseudo-class selectors address targeting only the structures that can be targeted by simple combinations of regular 
+   selectors, or targeting the ability to style based on user interaction with the page.
+-  For example, we would want the styling of an element to change if the user hovers or moves their mouse over that
+   element.
+
+
+1)Question 1: By default, a block-level element tries to take up as much horizontal space as its containing element will allow: --->True
+
+
+2)Question 2: Given the following HTML code:
+		<body>
+  			<div>Hello</div>
+  			<span>World!</span>
+		</body>
+		div, span {
+ 			 background-color: blue;
+			}
+
+--->The background color behind the words 'Hello' and 'World' is blue.
+
+--->The div element's background will span the entire width of the browser.
+

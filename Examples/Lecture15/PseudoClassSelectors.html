@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pseudo Class Selectors</title>
+    <style>
+        /* Styles go here. */
+        header li {
+            list-style: none;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid blue;
+            color: black;
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+            color: purple;
+        }
+
+        header li:nth-child(3) {
+            font-size: 24px;
+        }
+
+        section div:nth-child(odd) {
+            background-color: gray;
+        }
+
+        section div:nth-child(4):hover {
+            background-color: green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div>First div - Odd</div>
+        <div>Second div - Even</div>
+        <div>Third div - Odd</div>
+        <div>Fourth div - Even (Hover to change color)</div>
+        <div>Fifth div - Odd</div>
+    </section>
+    <pre>
+        <p><b>Style code</b></p>
+                /* Styles go here. */
+                header li {
+                list-style: none;
+                }
+                
+                a:link,
+                a:visited {
+                text-decoration: none;
+                background-color: green;
+                border: 1px solid blue;
+                color: black;
+                display: block;
+                width: 200px;
+                text-align: center;
+                margin-bottom: 1px;
+                }
+                
+                a:hover,
+                a:active {
+                background-color: red;
+                color: purple;
+                }
+                
+                header li:nth-child(3) {
+                font-size: 24px;
+                }
+                
+                section div:nth-child(odd) {
+                background-color: gray;
+                }
+                
+                section div:nth-child(4):hover {
+                background-color: green;
+                cursor: pointer;
+                }
+    </pre>
+    <br>
+    <pre>
+        <p><b>Body code</b></p>
+        &lt;header&gt;
+        &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;/header&gt;
+        
+        &lt;section&gt;
+        &lt;div&gt;First div - Odd&lt;/div&gt;
+        &lt;div&gt;Second div - Even&lt;/div&gt;
+        &lt;div&gt;Third div - Odd&lt;/div&gt;
+        &lt;div&gt;Fourth div - Even (Hover to change color)&lt;/div&gt;
+        &lt;div&gt;Fifth div - Odd&lt;/div&gt;
+        &lt;/section&gt;
+
+    </pre>
+</body>
+
+</html>

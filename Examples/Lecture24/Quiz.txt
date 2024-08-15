@@ -1,0 +1,5 @@
+1) Question 1: Most responsive frameworks use a 12-grid layout ---> True
+
+2) Question 2: To have a 12-grid layout means that 1 cell in that grid has width: 8.33% (100 / 12)
+        ---> True
+

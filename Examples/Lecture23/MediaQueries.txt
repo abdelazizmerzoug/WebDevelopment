@@ -1,0 +1,14 @@
+1- Media queries allow you to group styles together and target them to devices based on some criteria. For example, you can target a device by its width, its height, or orientation like landscape or portrait. 
+
+#basic syntax 
+@media (max-width:..px) and (min-width:..px){
+	selector{
+		propreties:value;
+		}
+
+
+& is and 
+, is or
+
+
+2- it's important when you structure these media queries that you have very clean, separate boundaries

@@ -1,0 +1,7 @@
+1)Question 1: How can you force the browser to open a link in a new window or tab?
+		  --->Include target='_blank' attribute as part of the <a> tag
+
+
+2) Question 2:The following code rendering in the middle section of the page allows someone to directly link
+   to that middle section of the page, not just the beginning of the page:<div id="superInterestingContentHere">Bla Bla</div>
+		  --->True

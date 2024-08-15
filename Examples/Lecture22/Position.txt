@@ -1,0 +1,5 @@
+1- static positioning. Static positioning is basically a different way of saying normal document flow. It is actually a default setting for all elements, except html
+
+2- relative positioning. When you apply position relative on an element. The element is positioned relative to its position in the normal document flow. move it from Top Left Buttom Right relative positioning is not taken out of normal document flow. In fact even if it's moved by using the offsets, its original spot is preserved.
+
+3- position absolute it's going to be first of all, taken out of its normal document flow. And it's going to remain in the place where it was without any other offsets.

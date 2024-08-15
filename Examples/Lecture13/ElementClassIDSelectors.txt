@@ -1,0 +1,4 @@
+Selector can be: Element, Class, and ID Selectors (* Select All tags)
+1) Elements: declared by p , div , section , span ..... ex: div{color: blue; font-family: arial;} // All div will have those properties
+2) Class: declared by: .class name ex: .container{background-color: grey; font-size:20%;} // All classes with same name will have the same properties
+3) ID: declared by: #id_name ex: #section2{color: beige;} // All classes with same ID will have the same properties

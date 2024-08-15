@@ -1,0 +1,6 @@
+1- usually html tags have opening and closing tag <p> Content <p> but there's another elements have
+   only opening tag <hr> and <br> .... etc
+
+2- Every elements can have predifinde attribut (meta data about the element itself that it's being applied to)
+   with unique names 
+				ex: <p id="id_name"> Content </p>

@@ -1,0 +1,16 @@
+1)Question 1: Pixels are absolute units of measurements (as opposed to relative).---> true
+
+2)Question 2: Given the following HTML code:What is the pixel size of the text "How big am I?", assuming the user did NOT increase zoom in the browser window?
+<head>
+<style>
+	body {
+  		font-size: 30px;
+		}
+</style>
+</head>
+
+<body>
+  	<div style="font-size: 3em;">How big am I?</div>
+</body>
+
+---> 90px  = 3em x 30px

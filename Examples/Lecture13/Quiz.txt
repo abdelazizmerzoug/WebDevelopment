@@ -1,0 +1,4 @@
+1)Question 1: A CSS rule can be applied to only one selector at a time.---> false // We can do Grouping Selector
+
+2)Question 2: A CSS rule has to be defined separately for each selector---> false
+

@@ -1,0 +1,24 @@
+1)Question 1: Identify correct HTML5 page declaration(s)
+		  2---> <!DOCTYPE html>
+		  4---> <!doctype html>
+		  6---> <!DocTyPe htML   >
+
+2)Question 2: What would happen if you didn't specify the HTML5 declaration?
+		  --->The page will be interpreted in quirks mode
+
+
+3)Question 3: Browsers ALWAYS interpret HTML sequentially, top to bottom
+
+4)Question 4: Identify invalid HTML code snippet below (assume code around it, i.e., declaration, etc. is valid)
+		<section>
+		<p>The sale numbers are in...
+		</section> You ARE a closer, Johnson!
+		</p>
+
+5)Question 5: Meta tags communicate information about the browser to the server
+		  ---> False meta is about the item itself not for server
+
+6)Question 6: Quirks Mode is when the browser?
+		  ---> Assumes that the HTML in the web page is NOT following the HTML standard, i.e., 
+			 not in standards mode. Styles won't work correctly, etc.
+

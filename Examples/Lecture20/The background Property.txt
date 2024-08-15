@@ -1,0 +1,7 @@
+1) Question 1: Given the following HTML code:
+	<div style="background-color: blue; background: url('mypicture.jpg');"> ... </div>
+		What will you see inside the div element?
+
+
+-->Just the image
+

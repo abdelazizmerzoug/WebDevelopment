@@ -1,0 +1,13 @@
+
+1)Question 1: One purpose of HTML Character Entity References is
+   ---> To allow the browser to display certain characters it would otherwise interpret as part of HTML code 
+	   and not something to display to the user
+
+
+2)Question 2: Using only HTML, how would you make sure that 3 words in an HTML document ALWAYS appear together on
+	        1 line, even if the text word-wraps because the browser window is too narrow for that text line?
+				--->Place &nbsp; entity reference after the 1st word and after the 2nd word 
+					(with no spaces in between words and entity references)
+
+
+

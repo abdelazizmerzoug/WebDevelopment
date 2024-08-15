@@ -1,0 +1,9 @@
+# Style Placement
+
+1) inline Ex: <p style="color:green;">Hello this is inline style</p>
+
+2) internal : inside Html file by using <style>Css Content </style> tag
+
+3) external : creat Css file with same folder and link it to Html file with <link rel="stylesheet" href="path/Style.css"> make it able to be applyed to multi files
+
+3.1)It's a good idea to place all of your CSS styles into a separate file, external to the HTML page, because you can share the same styles across multiple HTML pages that way.

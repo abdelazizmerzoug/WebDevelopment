@@ -1,0 +1,29 @@
+# What is HTML ?
+
+HTML: Hyper Text Markup Language used for build web structure using tags
+
+CSS: language used to style and layout web pages by controlling the presentation of HTML elements.
+
+JavaScript: used for creating interactive web pages. It runs in the browser and can manipulate HTML and CSS.
+
+The code is excexuted  from top to bottom.
+
+# EXAMPLE:
+
+<!doctype html>
+<html>
+  <head>
+    <title>HTML is Structure Only</title>
+  </head>
+  <body>
+    <h1 style="color: green; font-size: 60px; text-align: center;">HTML is Structure Only</h1>
+    <p style="margin: 0 100px 0 100spx; font-size: 18px; text-align: center;">And Css is what make this text designed and the header Green As U can See</p>
+    <footer>
+      <hr>
+      <p style="text-align: center;" 
+         onclick="alert('EMAILING US IS USELESS');">
+         Click for Tech Support: Merzougaziz800@gmail.com
+      </p>
+    </footer>
+  </body>
+</html>

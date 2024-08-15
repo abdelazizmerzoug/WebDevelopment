@@ -1,0 +1,7 @@
+1)Question 1: Given the following media query:  
+        @media (min-width: 768px) and (max-width: 991px) {
+...
+}
+The styles within this media query will apply if the browser window is btw 768 and 991px wide.
+
+2- The usual approach to using media queries is to provide some base styling and then change and/or add to them within each media query.

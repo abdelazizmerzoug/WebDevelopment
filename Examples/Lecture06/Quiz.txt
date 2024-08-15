@@ -1,0 +1,9 @@
+1)Question 1: Semantic HTML tags
+			---> May help the SEO ranking of the page
+
+
+			---> Help computers better understand the structure of the page
+
+
+			---> Help humans better understand the structure of the page
+

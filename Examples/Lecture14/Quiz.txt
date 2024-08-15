@@ -1,0 +1,16 @@
+1)Question 1: Given the following HTML code:
+		<div>
+ 		        <p>I am feeling blue</p>
+		</div>
+		<section>
+ 		        <p>I just want to be left alone!</p>
+		</section>
+Which of the following CSS rules turns the text of the first <p> tag blue, but NOT the second <p> tag? (after all, the second one wants to be left alone.)
+
+---> div p {
+	    color: blue;
+	}
+
+---> div > p {
+	    color: blue;
+	}
